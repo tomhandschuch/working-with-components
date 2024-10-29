@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <HeaderMan />
+  <main>
+    <div id="app" class="inside">
+      <BookList />
+    </div>
+  </main>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import HeaderMan from "./components/HeaderMan.vue";
+import BookList from "./components/BookList.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    HeaderMan,
+    BookList,
   },
 };
 </script>
