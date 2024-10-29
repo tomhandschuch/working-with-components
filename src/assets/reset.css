@@ -35,7 +35,7 @@ figure,
 figcaption,
 img {
   display: block;
-} /*--- <main> for IE 11 ---*/
+}
 img {
   max-width: 100%;
   height: auto;
@@ -64,13 +64,13 @@ input[type="email"],
 input[type="password"],
 input[type="search"] {
   -webkit-appearance: none;
-} /*--- for Safari (add/remove types as needed) ---*/
+}
 button {
   line-height: inherit;
 }
 button::-moz-focus-inner {
   border: 0;
-} /*--- for Firefox ---*/
+}
 html {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
